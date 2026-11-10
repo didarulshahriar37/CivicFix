@@ -119,20 +119,3 @@ To stop the PostgreSQL container:
 ```bash
 docker compose down
 ```
-
-## Project Structure
-
-```text
-CivicFix/
-│
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── database.py
-│   └── models.py
-│
-├── .env
-├── .gitignore
-├── docker-compose.yml
-└── README.md
-```
